@@ -25,6 +25,7 @@ body {
 
 .card-img-top {
   width: -webkit-fill-available;
+  width: -moz-available;
   border-radius: 10px;
 }
 
