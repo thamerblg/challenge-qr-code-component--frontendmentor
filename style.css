@@ -1,0 +1,45 @@
+:root {
+  --white: #ffffff;
+  --lightgray: #d6e2f0;
+  --grayishblue: #7b879d;
+  --darkblue: #1f3251;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--lightgray);
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.card {
+  max-width: 275px;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  width: -webkit-fill-available;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--darkblue);
+  padding: 0 10px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--grayishblue);
+  margin-bottom: 25px;
+  padding: 0 15px;
+}
